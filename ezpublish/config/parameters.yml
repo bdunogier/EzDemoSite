@@ -1,4 +1,11 @@
 parameters:
+    database_driver: pdo_mysql
+    database_host: localhost
+    database_user: root
+    database_password: null
+    database_dbname: ezpublish5_appstructure
+    database_charset: UTF8
+
     secret: 148d27b0de9393082eb8899390e8c62e42320a32
     locale_fallback: en
     ezpublish_legacy.default.view_default_layout: 'eZDemoBundle::pagelayout.html.twig'
