@@ -328,3 +328,9 @@ system:
                 reference: null
                 filters:
                     - { name: geometry/scaledownonly, params: [100, 80] }
+    ezdemo_site:
+        languages: [eng-GB, fre-FR]
+    eng:
+        languages: [eng-GB]
+    fre:
+        languages: [fre-FR, eng-GB]

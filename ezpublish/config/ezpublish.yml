@@ -7,28 +7,9 @@ ezpublish:
     siteaccess:
         match:
             URIElement: '1'
-    system:
-        eng:
-            languages:
-                - eng-GB
-            session:
-                name: eZSESSID
-        ezdemo_site:
-            languages:
-                - eng-GB
-                - fre-FR
-            session:
-                name: eZSESSID
-        fre:
-            languages:
-                - fre-FR
-                - eng-GB
-            session:
-                name: eZSESSID
 stash:
     caches:
         default:
-            drivers:
-                - FileSystem
-            inMemory: true
+            drivers: %cache_drivers%
+            inMemory: %cache_inmemory%
             registerDoctrineAdapter: false
