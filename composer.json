@@ -102,7 +102,7 @@
         "_symfony-assets-install_comment_": "One of 'symlink', 'relative' (symlinks) or 'hard'",
         "symfony-assets-install": "relative",
         "incenteev-parameters": {
-            "file": "ezpublish/config/parameters.yml.dist",
+            "file": "ezpublish/config/parameters.yml",
             "dist-file": "vendor/ezsystems/demobundle/EzSystems/DemoBundle/Resources/config/parameters.yml.dist"
         }
     }
