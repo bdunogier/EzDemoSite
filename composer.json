@@ -25,8 +25,8 @@
         "tedivm/stash-bundle": "0.4.*",
         "ezsystems/ezpublish-kernel": ">=2014.07",
         "ezsystems/ezpublish-legacy": ">=2014.07",
-        "ezsystems/demobundle": ">=2014.07",
         "ezsystems/comments-bundle": ">=2014.07",
+        "knplabs/knp-menu-bundle": "1.*",
         "egulias/listeners-debug-command-bundle": "~1.9",
         "white-october/pagerfanta-bundle": "1.0.*",
         "whiteoctober/breadcrumbs-bundle": "~1.0.1",
@@ -103,7 +103,7 @@
         "symfony-assets-install": "relative",
         "incenteev-parameters": {
             "file": "ezpublish/config/parameters.yml",
-            "dist-file": "vendor/ezsystems/demobundle/EzSystems/DemoBundle/Resources/config/parameters.yml.dist"
+            "dist-file": "src/EzSystems/DemoBundle/Resources/config/parameters.yml.dist"
         }
     }
 }
